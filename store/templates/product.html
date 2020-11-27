@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block title%} Product {%endblock%}
+{% block content %}
+
+  <div class="container-fluid">
+    <div class="row">
+      <img style="width: 100%" src ="{% static 'img/bris.png' %}" alt="" width="500" height="200">
+    </div>
+  </div>
+
+<div class="conatiner py-3">
+  <div class="row mt-5">
+    <div class="col-20 mx-auto col-md-3 my3">
+      <img src="{% static 'img/iph8.png' %}" alt ="" width="350" height="350" >
+    </div>
+    <div class="col-10 mx-auto col-md-5 my3"
+      <div>
+        <h1 class="product_title">HTC ONE</h1>
+        <h5 class="text-info font-italic mb-3">
+          £399
+        </h5>
+        <h4 class="product_description font-italic">Product Description</h4>
+        <p class="text-justify product_text">Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.
+          Duis aute irure dolor in reprehenderit
+          in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+        <p class="text-justify product_text">OUT OF Stock</p>
+      </div>
+  </div>
+</div>
+{% endblock %}
